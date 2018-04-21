@@ -17,11 +17,11 @@
 # @license MIT
 
 readonly FILEPATHS=(
-    "vendor ../composer.json"
-    "node_modules ../package.json"
-    ".vagrant ../Vagrantfile"
-    "bower_components ../bower.json"
-    "Carthage ../Cartfile"
+    "vendor ../composer.json" # https://getcomposer.org
+    "node_modules ../package.json" # https://www.npmjs.com / https://yarnpkg.com
+    ".vagrant ../Vagrantfile" # https://www.vagrantup.com
+    "bower_components ../bower.json" # https://bower.io
+    "Carthage ../Cartfile" # https://github.com/Carthage/Carthage
 )
 
 # Given a directory path, determine if the corresponding file (relative
